@@ -303,7 +303,7 @@ public class MyStepdefs {
 
         @When("accessing a specific resource under user")
         public void accessingASpecificResourceUnderUser() {
-                userID=32;
+                userID=1;
 
         }
 
@@ -318,7 +318,7 @@ public class MyStepdefs {
                 jsonPath = new JsonPath(response.asString());
                 objectMapper = new ObjectMapper();
                 responseUser = objectMapper.readValue(response.asString(), UserController.class);
-                Assert.assertEquals(userID, 32);
+                Assert.assertEquals(userID, 1);
 
         }
 
@@ -335,15 +335,15 @@ public class MyStepdefs {
                         (String) jsonObject.get("address"),
                         (Long) jsonObject.get("marks"));
 
-                user1 = new UserController((String) jsonObject.get("name"),
-                        (String) jsonObject.get("address"),
-                        (Long) jsonObject.get("marks"));
+                user1 = new UserController((String) jsonObject1.get("name"),
+                        (String) jsonObject1.get("address"),
+                        (Long) jsonObject1.get("marks"));
 
 
         }
 
         @Then("multiple users are created")
-        public void multipleUsersAreCreated() {
+         public void multipleUsersAreCreated() {
                 UserController[] array= new UserController[2];
                 array[0]=user;
                 array[1]=user1;

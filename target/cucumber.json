@@ -1,0 +1,69 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Creating a user",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 487000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user details",
+            "match": {
+              "location": "Steps.MyStepdefs.userDetails()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-17T04:57:06.722Z",
+        "line": 50,
+        "name": "verify if multiple resources can be created",
+        "description": "",
+        "id": "usercontroller-feature;verify-if-multiple-resources-can-be-created",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "creating multiple users",
+            "match": {
+              "location": "Steps.MyStepdefs.creatingMultipleUsers()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4416000000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "multiple users are created",
+            "match": {
+              "location": "Steps.MyStepdefs.multipleUsersAreCreated()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "UserController feature",
+    "description": "",
+    "id": "usercontroller-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/UserController.feature",
+    "tags": []
+  }
+]

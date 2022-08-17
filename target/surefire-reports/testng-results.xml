@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="29253" started-at="2022-08-17T10:08:52 IST" finished-at="2022-08-17T10:09:22 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@6ddf90b0]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Command line test" duration-ms="29253" started-at="2022-08-17T10:08:52 IST" finished-at="2022-08-17T10:09:22 IST">
+      <class name="Runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Runner.TestRunner@6ddf90b0]" name="setUpClass" is-config="true" duration-ms="1875" started-at="2022-08-17T10:08:55 IST" finished-at="2022-08-17T10:08:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@6ddf90b0]" name="runScenario" duration-ms="13127" started-at="2022-08-17T10:08:57 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-17T10:09:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify if a user resource can be added"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[UserController feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@6ddf90b0]" name="runScenario" duration-ms="5198" started-at="2022-08-17T10:09:10 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-17T10:09:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify if a user can be updated"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[UserController feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@6ddf90b0]" name="runScenario" duration-ms="284" started-at="2022-08-17T10:09:15 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-17T10:09:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify if an error is thrown when name is not specified while creating"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[UserController feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@6ddf90b0]" name="runScenario" duration-ms="236" started-at="2022-08-17T10:09:15 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-17T10:09:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify if an error is thrown when address is not specified while creating"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[UserController feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@6ddf90b0]" name="runScenario" duration-ms="28" started-at="2022-08-17T10:09:16 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-17T10:09:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify if an error is thrown when marks is not specified while creating"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[UserController feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@6ddf90b0]" name="runScenario" duration-ms="260" started-at="2022-08-17T10:09:16 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-17T10:09:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify if user is able to access all resources"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[UserController feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@6ddf90b0]" name="runScenario" duration-ms="376" started-at="2022-08-17T10:09:16 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-17T10:09:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify if user is able to access a specific resource"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[UserController feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@6ddf90b0]" name="runScenario" duration-ms="552" started-at="2022-08-17T10:09:16 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-17T10:09:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify if a resource can be deleted"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[UserController feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@6ddf90b0]" name="runScenario" duration-ms="569" started-at="2022-08-17T10:09:17 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-17T10:09:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify if an error is thrown when name is not specified while updating"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[UserController feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@6ddf90b0]" name="runScenario" duration-ms="488" started-at="2022-08-17T10:09:18 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-17T10:09:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify if an error is thrown when address is not specified while updating"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[UserController feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@6ddf90b0]" name="runScenario" duration-ms="508" started-at="2022-08-17T10:09:18 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-17T10:09:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify if a resource cannot be deleted when id is not specified"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[UserController feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@6ddf90b0]" name="runScenario" duration-ms="355" started-at="2022-08-17T10:09:19 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-17T10:09:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify if multiple resources can be created"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[UserController feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Runner.TestRunner@6ddf90b0]" name="tearDownClass" is-config="true" duration-ms="2758" started-at="2022-08-17T10:09:19 IST" finished-at="2022-08-17T10:09:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.TestRunner -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

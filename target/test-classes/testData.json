@@ -1,0 +1,35 @@
+{
+  "createRequest": {
+    "name": "sksk",
+    "address": "12 konoha, Leaf village",
+    "marks": 98
+  },
+  "updateRequest": {
+    "name": "sksk",
+    "address": "12 konoha, Leaf village",
+    "marks": 88
+  },
+  "blankMarks": {
+    "name": "sksk",
+    "address": "12 konoha, Leaf village"
+  },
+  "markswithstring": {
+    "name": "sksk",
+    "address": "12 konoha, Leaf village",
+    "marks": "hello"
+  },
+  "multiplepost":
+  [
+    {
+      "name":"sasuke uchiha",
+      "address":"leaf force headquarters, leaf village",
+      "marks":99
+    },
+    {
+      "name":"itachi uchiha",
+      "address":"leaf force headquarters, leaf village",
+      "marks":99
+    }
+  ]
+
+}
